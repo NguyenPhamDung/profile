@@ -1,3 +1,20 @@
-li {
-    color: chocolate;
+#fisrt_head {
+    color: #999966;
+}
+
+#bom {
+    color: #ff0000;
+    font-size: 46px;
+}
+
+.bom1 {
+    color: green
+}
+
+.bom2 {
+    color: indianred
+}
+
+.bom3 {
+    color: #009999
 }
