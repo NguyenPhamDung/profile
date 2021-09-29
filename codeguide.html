@@ -25,13 +25,24 @@
         <li>Sd kiểu local chỉ có tác dụng cục bộ</li>
     </ol>
     <h1>CSS units</h1>
-    <p>Có rất nhiều units trong css đc chia làm 2 loại absolute và relative, trong đó 6 loại thường dùng là px,%,rem,em,vw,vh.px là absolute được hiểu là unit cố định không bị ảnh hưởng bởi yếu tố bên ngoài,remem,vh,vw là relative đc hiểu là units ko cố
+    <p>Có rất nhiều units trong css đc chia làm 2 loại absolute và relative, trong đó 6 loại thường dùng là px,%,rem,em,vw,vh,px là absolute được hiểu là unit cố định không bị ảnh hưởng bởi yếu tố bên ngoài,remem,vh,vw là relative đc hiểu là units ko cố
         định, phụ thuộc vào các yếu tố liên quan đến nó</p>
     <ol>
         <li>px:phụ thuộc vào độ phân giải màn hình </li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>%:phụ thuộc vào thẻ chứa nó(ví dụ: bạn đặt kích thước cho box ở body thì nó sẽ phụ thuộc vào kích thước của thẻ body hay nói cách khác nó sẽ phụ thuộc vào kích thước trang web) </li>
+        <li>rem:phụ thuộc vào ích thước của thẻ html, mặc định là 16px khi ko gọi kích thước của html </li>
+        <li>em:phụ thuộc vào kích thước thẻ gần nhất có thuộc tính font-size,ví dụ ta gọi kích thước thẻ h1 trong body vào thẻ style và đặt font-size:em, thì máy tự định dạng thẻ h1 có kích thước giống the gần nhất với nó</li>
+        <li>vw:chiều ngang,tính theo % của trình duyệt ko phụ thuộc vào thẻ chứ nó như "%"</li>
+        <li>vh:chiều dọc tính theo % của trính duyệt ko phụ thuộc vào thẻ chứa nó như "%"</li>
+    </ol>
+    <h1>CSS functions</h1>
+    <ol>
+        <li>var(): dùng để đặt biến </li>
+        <li>linear-gradient():</li>
+        <li>rgb(number,number,number):màu sắc</li>
+        <li>rbga(number,number,number):màu sắc</li>
+        <li>calc():công cụ tính toán</li>
+        <li>attr():thường sử dung với lớp giả, là thuộc tính thẻ hmtl</li>
     </ol>
 </body>
 
