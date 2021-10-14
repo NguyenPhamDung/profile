@@ -25,13 +25,17 @@
         <li>Sd kiểu local chỉ có tác dụng cục bộ</li>
     </ol>
     <h1>CSS units</h1>
-    <p>Có rất nhiều units trong css đc chia làm 2 loại absolute và relative, trong đó 6 loại thường dùng là px,%,rem,em,vw,vh,px là absolute được hiểu là unit cố định không bị ảnh hưởng bởi yếu tố bên ngoài,remem,vh,vw là relative đc hiểu là units ko cố
+    <p>Có rất nhiều units trong css đc chia làm 2 loại absolute và relative, trong đó 6 loại thường dùng là
+        px,%,rem,em,vw,vh,px là absolute được hiểu là unit cố định không bị ảnh hưởng bởi yếu tố bên ngoài,remem,vh,vw
+        là relative đc hiểu là units ko cố
         định, phụ thuộc vào các yếu tố liên quan đến nó</p>
     <ol>
         <li>px:phụ thuộc vào độ phân giải màn hình </li>
-        <li>%:phụ thuộc vào thẻ chứa nó(ví dụ: bạn đặt kích thước cho box ở body thì nó sẽ phụ thuộc vào kích thước của thẻ body hay nói cách khác nó sẽ phụ thuộc vào kích thước trang web) </li>
+        <li>%:phụ thuộc vào thẻ chứa nó(ví dụ: bạn đặt kích thước cho box ở body thì nó sẽ phụ thuộc vào kích thước của
+            thẻ body hay nói cách khác nó sẽ phụ thuộc vào kích thước trang web) </li>
         <li>rem:phụ thuộc vào ích thước của thẻ html, mặc định là 16px khi ko gọi kích thước của html </li>
-        <li>em:phụ thuộc vào kích thước thẻ gần nhất có thuộc tính font-size,ví dụ ta gọi kích thước thẻ h1 trong body vào thẻ style và đặt font-size:em, thì máy tự định dạng thẻ h1 có kích thước giống the gần nhất với nó</li>
+        <li>em:phụ thuộc vào kích thước thẻ gần nhất có thuộc tính font-size,ví dụ ta gọi kích thước thẻ h1 trong body
+            vào thẻ style và đặt font-size:em, thì máy tự định dạng thẻ h1 có kích thước giống the gần nhất với nó</li>
         <li>vw:chiều ngang,tính theo % của trình duyệt ko phụ thuộc vào thẻ chứ nó như "%"</li>
         <li>vh:chiều dọc tính theo % của trính duyệt ko phụ thuộc vào thẻ chứa nó như "%"</li>
     </ol>
@@ -40,20 +44,22 @@
         <li>var(): dùng để đặt biến </li>
         <li>linear-gradient():</li>
         <li>rgb(number,number,number):màu sắc</li>
-        <li>rbga(number,number,number):màu sắc</li>
+        <li>rbga(number,number,number,độ trong suốt):màu trong suốt</li>
         <li>calc():công cụ tính toán</li>
         <li>attr():thường sử dung với lớp giả, là thuộc tính thẻ hmtl</li>
     </ol>
     <h1>CSS Pseudo classes</h1>
     <ol>
-        <li>:root:tham chiếu đến phần tử gốc của thẻ,dùng để tạo style chung cho các thẻ html nhằm dễ chỉnh sửa những thẻ html có style giống nhau</li>
+        <li>:root:tham chiếu đến phần tử gốc của thẻ,dùng để tạo style chung cho các thẻ html nhằm dễ chỉnh sửa những
+            thẻ html có style giống nhau</li>
         <li>:hover: dùng để kích hoạt css đc đặt vào trong lớp giả khi di chuột vào</li>
         <li>:active: dùng để kích hoạt css dc đặt vào trong lớp giả khi kích chuột vào</li>
         <li>:fisrt-child:dùng để chọn thuộc tính html ở đầu nếu có nhiều hơn 1 html có cùng thuộc tính</li>
         <li>:last-child: dùng để chọn thuộc tính html ở cuối nếu có nhiều hơn 1 html có cùng thuộc tính</li>
     </ol>
     <h1>CSS Pseudo elements</h1>
-    <p>Dịch nghĩa là phần tử giả, dùng để định dạng phần đặc biệt của phần tử, giúp LTV có thê dễ dàng tạo nên các CSS đẹp</p>
+    <p>Dịch nghĩa là phần tử giả, dùng để định dạng phần đặc biệt của phần tử, giúp LTV có thê dễ dàng tạo nên các CSS
+        đẹp</p>
     <ol>
         <li>::before: dùng để lựa chọn phần trước của phần tư đc chọn </li>
         <li>::after: dùng để lựa chọn phần sau của phần tử được chọn </li>
@@ -62,12 +68,15 @@
         <li>::selection:dùng để tạo CSS khi bôi đen cho phần được chọn </li>
     </ol>
     <h1>CSS Padding</h1>
-    <p>Dùng để đệm thêm vào css sẵn có</br>Gồm top,right,bottom,left.Nếu chỉ ghi "padding" thì sẽ ưu tiên thứ tự theo chiều kim đồng hồ </br>Ngoài ra có thêm các câu lệnh mới như </p>
+    <p>Dùng để đệm thêm vào css sẵn có</br>Gồm top,right,bottom,left.Nếu chỉ ghi "padding" thì sẽ ưu tiên thứ tự theo
+        chiều kim đồng hồ </br>Ngoài ra có thêm các câu lệnh mới như </p>
     <ol>
         <li>align-items: :Dùng để chỉnh nội dung đc chọn đến các vị trí thích hợp theo hàng dọc </li>
         <li>justify-content: :Dùng để chỉnh nôi dung đc chọn đến các vị trí thích hợp theo hàng ngang </li>
-        <li>text-align: :Dùng để chỉnh nội dung đc chọn đến các vị trí thích hợp theo hàng giữa , tương đương với câu lệnh "align-items"</li>
-        <li> line-height: :Là chiều dài của dòng chữ, kết hợp với text-align hoặc align-items có thể điều chỉnh nội dung đc chọn đến các vị trí thích hợp theo ý muốn </li>
+        <li>text-align: :Dùng để chỉnh nội dung đc chọn đến các vị trí thích hợp theo hàng giữa , tương đương với câu
+            lệnh "align-items"</li>
+        <li> line-height: :Là chiều dài của dòng chữ, kết hợp với text-align hoặc align-items có thể điều chỉnh nội dung
+            đc chọn đến các vị trí thích hợp theo ý muốn </li>
     </ol>
     <h1>CSS Border</h1>
     <p>Là viền bao quanh nội dung đc chọn, đều làm tăng kích thước elements như padding,cách sử dụng:</p>
@@ -78,9 +87,11 @@
         <li>border-right-width:bao quanh nội dung ở bên phải</li>
         <li>border-left-width:bao quanh nội dung ở bên trái</li>
     </ol>
-    <p>Nếu chỉ sử dụng 1 trong những lệnh trên thì mặc định các border còn lại sẽ có kích thước là 2px</br>Border thường đi theo các thuộc tính như:Border-style,border-color</p>
+    <p>Nếu chỉ sử dụng 1 trong những lệnh trên thì mặc định các border còn lại sẽ có kích thước là 2px</br>Border thường
+        đi theo các thuộc tính như:Border-style,border-color</p>
     <h1>CSS Margin</h1>
-    <p>Được dử dụng để đưa nội dung được chọn đến vị trí thích hợp, margin ko làm tăng kích thước elements như border và padding</br>Cách sử dụng:</p>
+    <p>Được dử dụng để đưa nội dung được chọn đến vị trí thích hợp, margin ko làm tăng kích thước elements như border và
+        padding</br>Cách sử dụng:</p>
     <ol>
         <li>Margin-top:đẩy xuống</li>
         <li>Margin-bottom:đẩy lên</li>
@@ -90,10 +101,59 @@
     </ol>
     <p>Các câu lệnh bổ sung:</p>
     <ol>
-        <li>float:dùng để sắp xếp các nội dụng đc chọn theo 1 hàng ngang</li>
+        <li>float:left dùng để sắp xếp các nội dụng đc chọn theo 1 hàng ngang</li>
         <li>display:flex : Có tác dụng làm các nội dung đc chọn trở nên linh hoạt hơn</li>
 
     </ol>
+    <h1>CSS box-sizing</h1>
+    <p>box-sizing:có tác dụng thu gọn kích thước elements đúng với kích thước đc
+        chọn</br>VD:box-sizing:border-box,box-sizing:unset dùng để hủy các câu lệnh box-sizing </p>
+    <h1>CSS background-clip</h1>
+    <p>background-clip dùng để đổ màu cho elements đc chọn tùy theo yêu cầu của lập trình viên</br>Cách sử dụng </p>
+    <ol>
+        <li>background-clip:border-box dùng để đổ màu cho border trở vào</li>
+        <li>background-clip:padding-box dùng để đổ màu cho padding trở vào </li>
+        <li>background-clip:content-box dùng để đổ màu cho content</li>
+    </ol>
+    <h1>CSS background-image</h1>
+    <p>Dùng để tạo CSS cho back ground của ảnh.Cách sử dụng:</p>
+    <ol>
+        <li>background-image:url() dùng để tạo ảnh bằng link trong back ground.Trong đó có thể sử dụng background-size
+            và background-repeat để đặt thuộc tính cho ảnh </li>
+        <li>background-image:linear-gradient() dùng để tạo 1 dải màu chuyển </li>
+        <li>Trong cùng 1 back ground-image có thể để nhiều link ảnh, link ảnh nào để trc sẽ ở trước, chúng ta có thể
+            dùng ảnh trong suốt và màu trong suốt để có thể tạo nên các background đẹp</li>
+    </ol>
+    <h1>CSS background-size keywords</h1>
+    <p>Là các lệnh giúp CSS background theo ý muốn của lập trình viên </p>
+    <ol>
+        <li>background-size:cover sẽ lấp đầy phần tử chứa nó và lấy chiếu dài hơn làm chuẩn, cắt bớt ảnh nếu chiều còn
+            lại ko đủ để làm ảnh ko bị méo. </li>
+        <li>background-size:contain sẽ tạo ra 1 bức ảnh hoàn chỉnh ko bị méo hay khuất, nó sẽ lấp đầy phần tử chứa nó
+            theo chiều ngắn hơn để đảm bảo ảnh ko bị khuất.</li>
+    </ol>
+    <h1>background-origin</h1>
+    <p>Dùng để đổ màu của ảnh đến các thuộc tính như border,padding,content.Đc dùng cho thuộc tính background-image </p>
+    <ol>
+        <li>background-origin:content chỉ đổ ảnh đến thuộc tính content</li>
+        <li>background-origin:padding đổ ảnh cho đến thuộc tính padding</li>
+        <li>background-origin:border đổ ảnh đến thuộc tính border</li>
+    </ol>
+    <h1>CSS background-position</h1>
+    <p>Dùng để điều chỉnh vị trí cho thuộc tính của background-image như điều chỉnh ảnh</p>
+    <ol>
+        <li>background-position:top right cách sử dụng thứ nhất,có thể thay số và giá trị tương đối, theo thứ tự hàng
+            ngang trước hàng dọc sau </li>
+        <li>background-position:center cách sử dụng thứ 2 cũng có thể thay số vào, tự động set theo cả 2 chiều dọc và
+            ngang</li>
+        <li>background-position:top 20 px right 20px cách sử dụng thứ 3 có thể thay các thuộc tính, số và giá trị tương
+            đối</li>
+
+    </ol>
+    <h1>CSS background-shorthand</h1>
+    <p>Có tác dụng làm ngắn và gọn quá trình tạo background và thuộc tính của background</br>VD:background:url("link
+        ảnh") no-repeat center /contain.</p>
+    <h3 style="color: red;">LƯU Ý: trc thuộc tính background-size cần có dấu / </h3>
 </body>
 
 </html>
